@@ -1,0 +1,21 @@
+# Git
+alias glog='git log --graph --decorate --pretty=oneline --abbrev-commit --all --date=local' # Thx @DanielBonates
+
+# Grep things
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+# Java
+alias java6='export JAVA_HOME=$(/usr/libexec/java_home -v 1.6)'
+alias java7='export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)'
+alias java8='export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)'
+
+# Terminal shortcuts
+alias c='clear'
+alias ..='cd ..'
+alias ...='cd ../../../'
+
+# Processes Management
+alias px='ps aux'
+
